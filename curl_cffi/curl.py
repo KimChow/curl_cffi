@@ -7,7 +7,7 @@ from typing import Any, List, Optional, Tuple, Union
 import certifi
 
 from ._wrapper import ffi, lib
-from .const import CurlHttpVersion, CurlInfo, CurlLockData, CurlOpt, CURLSHoption, CurlWsFlag
+from .const import CurlHttpVersion, CurlInfo, CurlLockData, CurlOpt, CURLShOption, CurlWsFlag
 
 DEFAULT_CACERT = certifi.where()
 REASON_PHRASE_RE = re.compile(rb"HTTP/\d\.\d [0-9]{3} (.*)")
